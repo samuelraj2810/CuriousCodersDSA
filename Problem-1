@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 2;
+    string name = "Name";
+    char initial = 'Y';
+    cout << age << endl;
+    cout << name << endl;
+    cout << initial << endl;
+    return 0;
+}
