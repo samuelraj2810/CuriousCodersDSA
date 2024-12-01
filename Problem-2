@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 45;
+    int b = 45;
+    int c = 45;
+    if(a + b + c == 180) {
+        cout << "Triangle can be formed";
+    } else {
+        cout << "Triangle cannot be formed";
+    }
+    return 0;
+}
