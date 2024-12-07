@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    string name;
+    char letter;
+    cin >> num >> name >> letter;
+    cout << num << endl;
+    cout << name << endl;
+    cout << letter;
+    return 0;
+}
