@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+    if (a>=b && a>=c) {
+        cout << "A is larger than B and C";
+    } else if (b>=a && b>=c) {
+        cout << "B is larger than A and C";
+    } else {
+        cout << "C is larger than A and B";
+    }
+    return 0;
+}
