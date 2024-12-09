@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    cout << "The number you have entered is "<< n << endl;
+    for ( int num=n; num <=100; num++){
+        cout << num << endl;
+    }
+    return 0;
+}
