@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+    cout << "The number you have entered is "<< num << endl;
+    do{
+        cout << num << endl;
+        num = num+1;
+    }while(num <= 100);
+    return 0;
+}
