@@ -3,6 +3,9 @@ using namespace std;
 
 int main() {
     int N = 3234;
-        cout<< N%10;
+    while(N>0){
+        cout<< N%10<<endl;
+        N=N/10;
+    }
     return 0;
 }
