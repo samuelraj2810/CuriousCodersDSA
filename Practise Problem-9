@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n=5;
+    if(n%2==0){
+        cout<<n%2<<endl<<"The number is even"<<endl;
+    } else {
+        cout<<n%2<<endl<<"The number is odd"<<endl;
+    }
+    return 0;
+}
